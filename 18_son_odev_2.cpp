@@ -12,7 +12,7 @@ int main(){
 		cout<<"Ehliyet icin yasiniz uygundur";
 		
 	}else if (dogumyili>=2005){
-		cout<<"Ehliyet icin yasiniz uygundeğildir";
+		cout<<"Ehliyet icin yasiniz uygundeÃ°ildir";
 	
 	}else{
 		cout<<"Hatali tercih";
