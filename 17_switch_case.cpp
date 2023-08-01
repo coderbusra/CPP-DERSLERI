@@ -7,14 +7,15 @@ int main(){
 	cin>>sayiBir;
 	cout<<"Sayiikiyi giriniz:";
 	cin>>sayiIki;
-	cout<<"Lutfen yapmak istediginiz islemi seçiniz"<<endl;
+	cout<<"Lutfen yapmak istediginiz islemi seÃ§iniz"<<endl;
 	cout<<"Toplama islemi icin 1'e basiniz"<<endl<<"Cikarma islemi icin 2'ye basiniz"<<endl;
 	cin>>tercih;
-/*	switch(tercih){
+/*	
+// switch iÃ§indeki case yapÄ±larÄ± uzun metodlarla Ã§alÄ±ÅŸmak iÃ§in Ã§ok elveriÅŸili deÄŸildir
+int toplam=sayiBir+sayiIki; yazdÄ±ÄŸÄ±mÄ±zda
+//aynÄ± iÅŸlemi if de de yapabilriz.
 
-// switch içindeki case yapıları uzun metodlarla çalışmak için çok elverişili değildir
-int toplam=sayiBir+sayiIki; yazdığımızda
-//aynı işlemi if de de yapabilriz
+ 	switch(tercih){
 		case 1:
 			cout<<"Toplama islemi sonucu:"<<sayiBir+sayiIki;
 			break; 
